@@ -12,6 +12,7 @@ File TextClassification.py contiene i metodi:
  - multinomialModel: metodo che allena il classificatore, ovvero calcola le probabilità in forma logaritmica di ogni parola condizionata dalla classe, applicando Laplace smoothing, utilizzando il metodo multinomialOccurrencesLikelihoods().
  - multinomialClassifier: Classifica ogni documento del testset con una classe utilizzando la tecnica di massima verosomiglianza.
  
+NB: il dataset 20 newsgroup viene caricato dalla libreria sklearn.dataset 
 
 Fonti consultate:
 
@@ -21,6 +22,7 @@ Per l'apprendimento della teoria:
 
 Per l'estrazione documenti dal dataset 20 newsgroup:
  - https://towardsdatascience.com/machine-learning-nlp-text-classification-using-scikit-learn-python-and-nltk-c52b92a7c73a
+ - https://scikit-learn.org/stable/datasets/index.html
 
 Per la parte implementativa:
  - https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.ndarray.html
